@@ -495,7 +495,7 @@ footer a:hover::after {
 .copyRights {
     font-size: 0.9rem;
     color: var(--primary-light);
-    opacity: 0.7;
+    opacity: 0.8;
 }
 
 /* ---------- Animations ---------- */
@@ -690,5 +690,6 @@ footer a:hover::after {
     }
 
 }
+
 
 
