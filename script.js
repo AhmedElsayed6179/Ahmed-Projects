@@ -62,7 +62,11 @@ window.addEventListener("load", () => {
 
 });
 
+// Select all elements with the class 'project'
 const projects = document.querySelectorAll('.project');
+// Apply a staggered animation delay to each element
 projects.forEach((project, index) => {
-    project.style.animationDelay = `${0.1 * (index + 1)}s`;
+    project.style.animationDelay = `${0.1 * (index + 1)}s`; // Each element delays 0.1s more than the previous
 });
+
+
