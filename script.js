@@ -59,4 +59,10 @@ window.addEventListener("load", () => {
     preloader.style.transition = "opacity 0.5s ease";
     setTimeout(() => (preloader.style.display = "none"), 500);
   }, 500);
+
+});
+
+const projects = document.querySelectorAll('.project');
+projects.forEach((project, index) => {
+    project.style.animationDelay = `${0.1 * (index + 1)}s`;
 });
